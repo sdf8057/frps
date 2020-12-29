@@ -6,7 +6,7 @@ WORK_PATH=$(dirname $(readlink -f $0))
 # 创建frp文件夹
 mkdir -p /usr/local/frp && \
 # 下载并移动frps文件
-wget -P ${WORK_PATH} https://github.com/sdf8057/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz && \
+wget -P ${WORK_PATH} https://github.com/sdf8057/frps/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz && \
 tar -zxvf frp_${FRP_VERSION}_linux_amd64.tar.gz && \
 cd frp_${FRP_VERSION}_linux_amd64 && \
 mv frps /usr/local/frp && \
