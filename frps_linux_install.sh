@@ -1,5 +1,5 @@
 #!/bin/sh
-FRP_VERSION="0.34.0"
+FRP_VERSION="0.34.3"
 REPO="sdf8057/frps"
 WORK_PATH=$(dirname $(readlink -f $0))
 
