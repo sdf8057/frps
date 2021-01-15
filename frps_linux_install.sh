@@ -15,8 +15,8 @@ wget -P /usr/local/frp https://raw.githubusercontent.com/${REPO}/master/frps.ini
 wget -P /lib/systemd/system https://raw.githubusercontent.com/${REPO}/master/frps.service && \
 systemctl daemon-reload && \
 # 启动frps
-sudo systemctl start frps && \
-sudo systemctl enable frps && \
+systemctl start frps && \
+systemctl enable frps && \
 # 删除多余文件
 cd ${WORK_PATH} && \
 rm -rf frp_${FRP_VERSION}_linux_amd64 frp_${FRP_VERSION}_linux_amd64.tar.gz frps_linux_install.sh
