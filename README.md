@@ -11,7 +11,7 @@
 ### 一键脚本(先运行脚本,在自行修改 frps.ini 文件.)
 安装
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://raw.githubusercontent.com/sdf8057/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
